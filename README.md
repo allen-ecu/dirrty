@@ -44,6 +44,17 @@ Methods
 
 `$("#form-id").dirrty("isDirty");`
 
+
+
 Lets you know if the form is dirty at a givent moment
 
 [Live Demo](http://rubentd.com/dirrty)
+
+
+Extra
+---------
+
+Use methods below to set dirty/clean flag if needed when using third party element such as TinyMCE
+
+`$("#form-id").dirrty("setClean");`
+`$("#form-id").dirrty("setDirty");`

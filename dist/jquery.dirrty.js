@@ -167,6 +167,9 @@ var singleDs = [];
 				case 'setClean':
 					d.setClean();
 					return true;
+				case 'setDirty':
+					d.setDirty();
+					return true;
 			}
 
 		}else if (typeof options == 'object' || !options) {
